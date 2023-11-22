@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  overflow: hidden;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.textarea{
+    border: 1px solid rgb(190, 7, 240);
+    padding: 3px 50px;
+    padding-top: 50px;
+    position: relative;
+    right: -200px;
+    top: 20px;
+    height: 100%;
+    width: 35%;
+    border-radius: 5px;
+}
+#btn{
+    padding: 10px 5px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    position: relative;
+    top: 50px;
+    right: -113px;
+    border: 0;
+}
+#btn:hover{
+    background-color: rgb(12, 233, 37);
+    transition: 0.5s;
+    transform: translateY(-1px);
+}
+#quote{
+    background-color: black;
+    font-size: 18px;
+    color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;  
+}
